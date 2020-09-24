@@ -24,6 +24,7 @@ public class StepDefintionFile {
 		driver.manage().window().maximize();
 		Thread. sleep(5000);
 		driver.findElement(By.id("menuUserSVGPath")).click();
+		System.out.println("Sukumar");
 	}
 	
 	@When("^user enters user \"([^\"]*)\" user name$")
